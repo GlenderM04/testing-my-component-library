@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Test My Component Library
 
-## Getting Started
+Bienvenido al repositorio **"test my component library"**. Este proyecto está diseñado para probar y demostrar el funcionamiento de los componentes de mi biblioteca de componentes de Next.js.
 
-First, run the development server:
+Puedes ver los componentes implementados en https://github.com/GlenderM04/my-first-component-library.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Descripción
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Este repositorio sirve como un entorno de prueba para evaluar los componentes que he desarrollado en mi biblioteca de componentes. Aquí podrás ver cómo se comportan, sus propiedades y cómo se integran en una aplicación Next.js.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Características
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Pruebas de Componentes**: Una colección de páginas y ejemplos que demuestran el uso de cada componente.
+- **Integración con Next.js**: Todos los componentes están diseñados para funcionar sin problemas en un entorno Next.js.
+- **Facilidad de Uso**: Cualquier desarrollador puede clonar este repositorio y comenzar a probar los componentes de inmediato.
 
-## Learn More
+## Instalación
 
-To learn more about Next.js, take a look at the following resources:
+Para comenzar a trabajar con este proyecto, sigue estos pasos:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Clonar el repositorio**:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   git clone https://github.com/tu-usuario/test-my-component-library.git
+   cd test-my-component-library
+   ```
 
-## Deploy on Vercel
+2. **Instalar las dependencias**:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm install
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   o
+
+   ```bash
+   yarn install
+   ```
+
+3. **Iniciar el servidor de desarrollo**:
+
+   ```bash
+   npm run dev
+   ```
+
+   o
+
+   ```bash
+   yarn dev
+   ```
+
+4. **Acceder a la aplicación**: Abre tu navegador y visita `http://localhost:3000` para ver los componentes en acción.
+
+5. **Si hay la libreria no se actualiza a la última versión, se la actualiza manualmente**:
+
+   ```bash
+   npm install glenderm04-my-first-component-library@latest
+   ```
+
+## Componentes en Prueba
+
+### 1. Header
+
+Un componente de encabezado que muestra el título de la aplicación.
+
+### 2. Navbar
+
+Un componente de navegación que permite a los usuarios desplazarse por las diferentes secciones de la aplicación.
+
+### 3. Reloj Digital
+
+Un reloj que muestra la hora actual y permite alternar entre formatos de 12 y 24 horas.
+
+### 4. Galería de Imágenes
+
+Un área que muestra imágenes en una cuadrícula 4x4, permitiendo desplazamiento si hay muchas imágenes.
+
+### 5. Botón de Navegación
+
+Un botón estilizado que redirige a diferentes rutas dentro de la aplicación.
+
+## Contribuciones
+
+Si deseas contribuir a este proyecto, ¡serás bienvenido! Por favor, abre un _issue_ o envía un _pull request_ con tus sugerencias o mejoras.
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT.
+
+---
+
+¡Gracias por visitar el repositorio "test my component library"! Espero que encuentres útil esta colección de componentes. Si tienes alguna pregunta o sugerencia, no dudes en contactarme.
